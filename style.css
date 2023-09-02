@@ -1,0 +1,71 @@
+/* body{
+    
+} */
+
+.container{
+    max-width: 400px;
+    border: 2px solid aquamarine;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 10px blueviolet;
+}
+
+button {
+    background-color: #9eba00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+button{
+    font-family: Fantasy;
+    font-size: 18px;
+}
+
+input{
+    font-size: x-large;
+}
+
+input[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Example: Change border color on focus */
+    /* Add more styles for focus state as needed */
+}
+
+input.placeholder{
+    font-size: 10px;
+}
+
+.style{
+    font-size: medium;
+    color: blueviolet;
+}
+
+.container1{
+    padding-top: 18px;
+}
+
+select{
+    padding:6px 14px;
+    text-align: center;
+}
+
+
